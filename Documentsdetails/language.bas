@@ -1,7 +1,7 @@
 Use this document to GitHub understand this project is VBA´s project
 
 VBA Codes in this project:
-<hr>
+
 Private Sub WorkBook_Open()
 
 Application.Visible = True
@@ -9,7 +9,7 @@ Application.Visible = True
 Dados_certificado.Show
 
 End Sub
-<hr>
+
 'Criar espera entre uma macro e outra
 Sub esperar()
 
@@ -23,7 +23,7 @@ waittime = TimeSerial(newhour, newminute, newsecond)
 Application.Wait waittime
 
 End Sub
-<hr>
+
 
 Sub criar_novo_certificado()
 
@@ -1605,13 +1605,13 @@ End If
 MsgBox ("Certificados gerados e salvos com sucesso na pasta'Certificados'!")
 
 End Sub
-<hr>
+
 Sub abrir_formulario()
 
 Dados_certificado.Show
 
 End Sub
-<hr>
+
 Sub PDF()
 '
 'CEntralzar células
